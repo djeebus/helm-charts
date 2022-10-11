@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  c7n-kube:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-10-11T19:42:34.88266352Z"
+    description: Use c7n policies to warn/block kubernetes resource modifications.
+    digest: c600a5ae1255ffa1ba2ce1eed321d3348eb118e5ffb323ed0c68e56d7abe26e0
+    name: c7n-kube
+    urls:
+    - https://github.com/djeebus/helm-charts/releases/download/c7n-kube-0.1.1/c7n-kube-0.1.1.tgz
+    version: 0.1.1
+  cloud-custodian-cron:
+  - apiVersion: v2
+    appVersion: 0.9.11.0
+    created: "2022-10-11T19:42:35.048055699Z"
+    description: Cloud Custodian helm chart allowing use of cron jobs to schedule policy runs
+    digest: 08b83d81065fea44e90da80242d984a4e70a860033d0cb089b9a0fab9d6fa60f
+    name: cloud-custodian-cron
+    type: application
+    urls:
+    - https://github.com/djeebus/helm-charts/releases/download/cloud-custodian-cron-0.2.2/cloud-custodian-cron-0.2.2.tgz
+    version: 0.2.2
+generated: "2022-10-11T19:42:34.699281124Z"
